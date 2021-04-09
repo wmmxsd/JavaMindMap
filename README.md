@@ -8,7 +8,13 @@
 
 ## JVM
 
-[JVM](docs/JVM/调优命令.md)
+### 垃圾回收
+
+- [垃圾回收](docs/JVM/垃圾回收.md)
+
+### 调优命令
+
+- [调优命令](docs/JVM/调优命令.md)
 
 ## Java
 
