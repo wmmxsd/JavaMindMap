@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Java思维导图
 
-You can use the [editor on GitHub](https://github.com/wmmxsd/JavaMindMap/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+>本网站主要是按照知识点分门别类的对知识点做笔记。以**思维导图**为引子然后详细介绍每一个基础知识点
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wmmxsd/JavaMindMap/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
++ [操作系统](https://github.com/wmmxsd/JavaMindMap/tree/main/操作系统)
++ [JVM](https://github.com/wmmxsd/JavaMindMap/tree/main/JVM)
++ [JAVA](https://github.com/wmmxsd/JavaMindMap/tree/main/Java)
