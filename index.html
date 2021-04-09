@@ -7,7 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/prism.css">
+  <!--主题-->
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 
 <body>
@@ -19,11 +21,11 @@
       name: 'javaMindMap',
       logo: 'pictures/icZeplin.svg',
       repo: 'https://github.com/wmmxsd/JavaMindMap',
-      maxLevel: 5,//最大支持渲染的标题层级
+      maxLevel: 4,//最大支持渲染的标题层级
       subMaxLevel: 3,
       homepage: 'README.md',
       coverpage: true,
-      loadSidebar: true,
+      // loadSidebar: true,
       auto2top: true,//切换页面后是否自动跳转到页面顶部
       //全文搜索
       search: {
@@ -42,7 +44,7 @@
       },
       //全部页面都可以editOnGitHub
       plugins: [
-        EditOnGithubPlugin.create('https://github.com/wmmxsd/JavaMindMap/')
+        EditOnGithubPlugin.create('https://github.com/wmmxsd/JavaMindMap/blob/main/')
       ],
     }
   </script>
