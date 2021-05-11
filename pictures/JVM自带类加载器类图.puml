@@ -1,0 +1,24 @@
+@startuml JVM自带类加载器类图
+'https://plantuml.com/class-diagram
+
+abstract class ClassLoader {
+loadClass(String name)
+findClass(String name)
+defineClass(String name, Resource res)
+resolveClass(Class<?> c)
+}
+class SecureClassLoader
+class URLClassLoader {
+findClass(final String name)
+}
+class ExtClassLoader
+class AppClassLoader {
+loadClass(String var1, boolean var2)
+}
+
+ClassLoader <|-- SecureClassLoader
+SecureClassLoader <|-- URLClassLoader
+URLClassLoader <|-- ExtClassLoader
+URLClassLoader <|-- AppClassLoader
+
+@enduml
