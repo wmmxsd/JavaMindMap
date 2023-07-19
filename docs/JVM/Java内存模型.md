@@ -4,6 +4,9 @@
 
 ![Java内存模型](../../xmind/Java内存模型.png)
 
+## 运行时数据区域
+![运行时数据区域](../../pictures/java-runtime-data-areas-jdk1.7.png)
+
 ## 线程私有区域
 
 ### 栈
